@@ -19,11 +19,14 @@ You will need to follow the instructions on the "/firstapp/Prerequisites" tab to
 console and obtain the client ID.  You will also need to follow the instructions in "/firstapp/Set up a 
 Client Library" to download the google api python extension.
 
-# Requirements
+# Dependencies
 PyEcho: https://github.com/scotttherobot/PyEcho
 Google API: https://developers.google.com/google-apps/calendar/setup
 pytz: install from easy_install
-dateutil: install from easy_install
+dateutil: install from repo
+gflags: install from repo
+beautifulsoup: install from repo
+bs4: install from repo
 
 # Usage
 Usage:  ./Echo2Google.py  -[u:p:j:d:]
